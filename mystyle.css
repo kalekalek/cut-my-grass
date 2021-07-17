@@ -1,12 +1,12 @@
  body {
 
-margin: 20;
+margin: auto;
 }
 
 header {
 text-align :center;
 font-size: 60px;
-background-color: rgb(9, 9, 212);
+background-color:green;
 }
 @media screen and (min-width: 600px) and (max-width:1080px) {
 header {
@@ -28,5 +28,11 @@ style
     }
 
     #rightbox{
-       float:right;
+       float:center;
     }
+footer { 
+width: 100%;
+color:green;
+position: sticky;
+flex-wrap: wrap;
+}
