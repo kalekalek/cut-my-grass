@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+html {
+ font-size: 1.25em;
+} 
+img {
+    width: 100%;
+    float:center;
+}
+    body {
+        font-family: "fantasy, geneva, san-serif";
+        font-weight: 700;
+        line-height: 2;
+        margin: ;
+    }
+  h1, h2, h3 {
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 4rem;
+    line-height: 1;
+  }
+  header{
+   padding: 8vh 1rem;
+   background-image: image("grass");
+   text-shadow:10px 5px 0 green;
+
+  }
+  header, footer {
+      text-align: center;
+  }

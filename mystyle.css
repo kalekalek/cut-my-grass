@@ -1,38 +1,61 @@
- body {
-
-margin: auto;
+ .container {
+    display: -moz-inline-box;
+     text-align: center;
+     flex-direction: column;
 }
 
 header {
-text-align :center;
+text-align : center;
 font-size: 60px;
 background-color:green;
 }
 @media screen and (min-width: 600px) and (max-width:1080px) {
 header {
     color:chocolate;
-
+-ms-layout-grid: edge;
 }
 }
 @media  screen and  (max-width:580px) {
   header{   
-color: red;}
+color: red;
+display:block;
+width: 50%;
+
+
+
 }
 
-style 
+}
+
+
  #leftbox{
-     float:left
+     vertical-align: 20%;
+     flex:none;
  }
     #middlebox {
-        float:middle;
+        vertical-align: 20%;
+        flex:none;
     }
 
-    #rightbox{
-       float:center;
+    .rightbox{
+        vertical-align: 20%;
+       flex:none;
     }
 footer { 
 width: 100%;
 color:green;
 position: sticky;
 flex-wrap: wrap;
+}
+h1{
+text-align: left;
+width: 10px;
+}
+h2 {
+
+text-align: center;
+}
+h3{
+
+text-align: right;
 }
