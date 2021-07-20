@@ -1,0 +1,98 @@
+@media (min-width: 769px) {
+.title
+{
+  display: flex;
+  
+  width: fit-content;
+}
+.container{
+  flex-direction: column;
+ .h1{
+
+ } 
+}
+}
+@media (min-width: 1025px){
+.footer{
+display:flex
+
+
+}
+
+}
+
+.container {
+  display:flex;
+  height: 100px;
+  flex-direction:column;
+  width:100px;
+
+
+}
+
+html {
+ font-size: 1.25em;
+} 
+img {
+    width: 100%;
+    float:center;
+}
+    body {
+        font-family: "fantasy, geneva, san-serif";
+        font-weight: 700;
+        line-height: 150%;
+        margin: 100px; ;
+       padding-top: 60px;
+       padding-bottom: 40px;
+        flex-direction: column;
+        
+    }
+  h1, h2, h3 {
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 1rem;
+    justify-content: center;
+  align-items: center;
+  }
+  header{
+   text-align: center;
+   background-image: image("grass");
+  top: 0;
+
+  }
+  
+  h1{
+    
+    border-radius: 5%;
+    background-color: indigo;
+    background-image: url('img/image0.jpg');
+  }
+  h2{
+    
+    border-radius:5;
+    background-color: midnightblue;
+  }
+  h3{
+    
+    border-radius: 5%;
+    background-color: olivedrab;
+  }
+  
+  }
+  footer{
+margin: auto;
+bottom: 0;
+position: sticky;
+  }
+  title{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    
+  }
+  .general{
+    width: 100px; 
+    height:100px;
+    background-repeat: no-repeat;
+    background-image:url("C:\Users\kalek\OneDrive\Pictures\image4[687].jpeg"),blue,green ;
+    background-blend-mode: overlay;
+  }
