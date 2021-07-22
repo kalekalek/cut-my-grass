@@ -38,11 +38,13 @@ img {
     float:center;
 }
     body {
+
       background-color:royalblue ;
         font-family: "fantasy, geneva, san-serif";
         font-weight: 700;
-        line-height: 150%;
-        margin: auto; 
+        line-height: 1.5;
+        width: 70%;
+        margin:0 auto; 
        padding-top: 60px;
        padding-bottom: 40px;
         flex-direction: column;
@@ -76,18 +78,22 @@ img {
     padding: 10px 0;
     background-color: indigo;
     background-image: url('img/image0.jpg');
+    line-height: 1.5;
+    margin: 0%;
   }
   h2{
     display:inline-block;
     width: 30%;
     padding: 10px 0;
     background-color: midnightblue;
+    line-height: 1.5;
   }
   h3{
     width: 30;
     display: inline-block;
     background-color: olivedrab;
     padding: 10px 0;
+    line-height: 1.5;
   }
   
   
@@ -118,4 +124,8 @@ position: absolute;
 padding-bottom: 0%;
 display: block;
 margin-bottom: 0%;
+  }
+  .wrapper{
+
+    display: inline;
   }

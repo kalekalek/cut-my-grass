@@ -1,4 +1,4 @@
-function getSubmitform (_Landscaping, Debris_Pickup, General_Labor) {
+function getSubmitform () {
     return(' You have completed this form.');
 }
-submitform(_Landscaping);
+submitform(_);
